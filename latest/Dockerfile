@@ -1,6 +1,7 @@
 FROM jupyter/datascience-notebook:latest
 
 USER root
+MAINTAINER "David Herrera david.herrera@noirlab.edu" 
 
 # Install a few dependencies for iCommands, text editing, and monitoring instances
 RUN apt update && \
